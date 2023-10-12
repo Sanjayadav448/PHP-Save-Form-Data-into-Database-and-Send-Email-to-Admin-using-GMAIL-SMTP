@@ -6,9 +6,9 @@ if(isset($_POST['submit'])){
 	$email=mysqli_real_escape_string($con,$_POST['email']);
 	$mobile=mysqli_real_escape_string($con,$_POST['mobile']);
 	$comment=mysqli_real_escape_string($con,$_POST['comment']);
-
+    $time=date('y-m-d h:m:s');
 	
-	mysqli_query($con,"insert into contact_us(name,email,mobile,query) values('$name','$email','$mobile','$comment')");
+	mysqli_query($con,"insert into contact_us(name,email,mobile,query,Date) values('$name','$email','$mobile','$comment',`$time`)");
 	$msg="Submit Succesfully!!";
 	
 	$html="<h1>Thankyou for contact us!";
