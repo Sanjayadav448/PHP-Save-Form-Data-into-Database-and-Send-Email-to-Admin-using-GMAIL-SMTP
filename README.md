@@ -2,6 +2,15 @@
 
 ## Screen Shots
 
-![Alt text](s1.jpg?raw=true "Screen Shots")
+![Alt text](images/s1.jpg?raw=true "Screen Shots")
 
-![Alt text](s2.jpg?raw=true "Screen Shots")
+![Alt text](images/s5.jpg?raw=true "Screen Shots")
+
+![Alt text](images/s4.jpg?raw=true "Screen Shots")
+
+![Alt text](images/s6.jpg?raw=true "Screen Shots")
+
+![Alt text](images/s2.jpg?raw=true "Screen Shots")
+
+
+
