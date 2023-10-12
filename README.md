@@ -3,3 +3,5 @@
 ## Screen Shots
 
 ![Alt text](s1.jpg?raw=true "Screen Shots")
+
+![Alt text](s2.jpg?raw=true "Screen Shots")
