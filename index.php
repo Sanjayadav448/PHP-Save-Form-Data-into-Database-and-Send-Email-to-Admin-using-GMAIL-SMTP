@@ -1,7 +1,7 @@
 <?php
 $con=mysqli_connect('localhost','root','','ecom');
 $msg="";
-if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['mobile']) && isset($_POST['comment'])){
+if(isset($_POST['submit'])){
 	$name=mysqli_real_escape_string($con,$_POST['name']);
 	$email=mysqli_real_escape_string($con,$_POST['email']);
 	$mobile=mysqli_real_escape_string($con,$_POST['mobile']);
